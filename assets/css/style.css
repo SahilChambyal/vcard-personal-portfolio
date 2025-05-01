@@ -1358,9 +1358,25 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
-
-  .avatar-box img { width: 120px; }
+  .avatar-box { 
+    /* border-radius: 30px;  */
+    /* width: 250px;  */
+    /* border-radius: 100%;
+    height: fit-content;
+    width: fit-content;  */
+    /* margin: 2px 2px; */
+    /* overflow: hidden; */
+  }
+  
+  .avatar-box img { 
+    border-radius: 10px; 
+    
+    /* height: 200px; */
+    /* size: 1500%; */
+    /* width: 100%; 
+    contain: content; */
+    /* b */
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
